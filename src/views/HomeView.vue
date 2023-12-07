@@ -56,7 +56,7 @@
     </div>
 
     <div class="video-wrap">
-      <video autoplay="" loop="" muted="" class="custom-video" poster="">
+      <video autoplay="true" loop="true" muted="true" class="custom-video" poster="">
         <source src="@/assets/video/AsusVideo.mp4" type="video/mp4" />
 
         Your browser does not support the video tag.
@@ -506,7 +506,7 @@
                 width="100%"
                 height="450"
                 style="border: 0"
-                allowfullscreen=""
+                allowfullscreen="true"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>

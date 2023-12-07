@@ -5,6 +5,7 @@ import { onMounted, ref } from 'vue'
 import http from '@/plugins/axios'
 import router from '@/router'
 
+
 var productos = ref<Producto[]>([])
 async function getProductos() {
   productos.value = await http.get('productos').then((response) => response.data)
@@ -55,7 +56,7 @@ onMounted(() => {
             <div class="col-4 m-4">
               <div class="card">
                 <div class="card" style="width: 18rem">
-                  <img class="card-img-top" src="src\assets\images\artists\asus.jpg" alt="Imagen" />
+                  <img class="card-img-top" src="#" alt="Imagen" />
                   <div class="card-body">
                     <h5 class="card-title">{{ 'Nombre: ' + producto.nombre }}</h5>
                     <p class="card-text">
